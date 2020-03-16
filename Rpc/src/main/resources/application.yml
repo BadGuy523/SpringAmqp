@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: rpc,client,server
+  rabbitmq:
+    host: 118.25.195.112
+    port: 5672
+    username: guest
+    password: guest
+    pu
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
